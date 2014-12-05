@@ -12,32 +12,50 @@ namespace CubicTechGame.SceneManager
 {
     public class GameScene
     {
-        //Constructor
-        public GameScene()
-        {
+        //Graphics
+        public GraphicsDeviceManager graphics;
+        public ContentManager content;
 
+        //Constructor
+        public GameScene(GraphicsDeviceManager g, ContentManager c)
+        {
+            this.graphics = g;
+            this.content = c;
         }
 
         //Load Content
-        public void LoadContent(ContentManager content) {
+        public virtual void LoadContent() {
 
+
+            //Loaded
+            this.Loaded = true;
         }
 
         //Unload
-        public void UnloadContent()
+        public virtual void UnloadContent()
         {
 
+
+            //Loaded
+            this.Loaded = false;
         }
 
         //Update
-        public void Update(GameTime gametime)
+        public virtual void Update(GameTime gametime)
         {
-
+            DoLoad();
         }
 
+        //Do load
+        public bool Loaded { get; private set; }
+        public void DoLoad()
+        {
+            if (!Loaded)
+                LoadContent();
+        }
 
         //Draw
-        public void Draw(SpriteBatch spriteBatch)
+        public virtual void Draw(SpriteBatch spriteBatch)
         {
 
         }

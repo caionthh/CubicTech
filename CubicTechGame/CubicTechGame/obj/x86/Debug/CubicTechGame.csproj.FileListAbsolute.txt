@@ -26,3 +26,4 @@ C:\Users\Caio\Desktop\Games\CubicTech\CubicTechGame\CubicTechGame\obj\x86\Debug\
 C:\Users\Caio\Desktop\Games\CubicTech\CubicTechGame\CubicTechGame\obj\x86\Debug\CubicTechGame.exe
 C:\Users\Caio\Desktop\Games\CubicTech\CubicTechGame\CubicTechGame\obj\x86\Debug\CubicTechGame.pdb
 C:\Users\Caio\Desktop\Games\CubicTech\CubicTechGame\CubicTechGame\bin\Windows\Debug\Content\DefaultBlock.png
+C:\Users\Caio\Desktop\Games\CubicTech\CubicTechGame\CubicTechGame\bin\Windows\Debug\Content\Fonts\Arial.xnb

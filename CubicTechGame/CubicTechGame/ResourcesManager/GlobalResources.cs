@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.Xna.Framework.Graphics;
+using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
@@ -11,6 +12,8 @@ namespace CubicTechGame.ResourcesManager
         //Resource Dictionary
         public static ListDictionary resourceDictionary = new ListDictionary();
 
+        //Viewport
+        public static Viewport viewport;
 
     }
 }

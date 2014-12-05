@@ -9,20 +9,17 @@ using Microsoft.Xna.Framework.Input;
 
 namespace CubicTechGame.InputManager
 {
-    public class IndexedInput
+    public class KeyboardInput
     {
         //Keyboard
         public KeyboardState currentKeyboard, lastKeyboard;
-
-        //My Index
-        public PlayerIndex index = PlayerIndex.One;
 
         //Update
         public void Update(GameTime gametime)
         {
             //Update Keyboard
             lastKeyboard = currentKeyboard;
-            currentKeyboard = Keyboard.GetState(index);
+            currentKeyboard = Keyboard.GetState();
         }
 
     }

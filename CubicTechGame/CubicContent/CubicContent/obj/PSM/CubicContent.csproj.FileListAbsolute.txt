@@ -1,0 +1,5 @@
+C:\Users\Caio\Desktop\Games\CubicTech\CubicTechGame\CubicContent\CubicContent\bin\PSM\Content\Fonts\Arial.xnb
+C:\Users\Caio\Desktop\Games\CubicTech\CubicTechGame\CubicContent\CubicContent\bin\PSM\IgnoreMe.dll
+C:\Users\Caio\Desktop\Games\CubicTech\CubicTechGame\CubicContent\CubicContent\obj\PSM\CubicContent.csprojResolveAssemblyReference.cache
+C:\Users\Caio\Desktop\Games\CubicTech\CubicTechGame\CubicContent\CubicContent\obj\PSM\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Caio\Desktop\Games\CubicTech\CubicTechGame\CubicContent\CubicContent\obj\PSM\IgnoreMe.dll

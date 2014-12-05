@@ -19,6 +19,9 @@ namespace CubicTechGame.SceneManager.ViewResources
         //Global Camera Position
         public Vector2 position;
 
+        //Viewport
+        public Viewport viewport;
+
         //Scale
         public float scale = 1;
 
@@ -31,6 +34,9 @@ namespace CubicTechGame.SceneManager.ViewResources
         //Get Matrix
         public Matrix GetCameraMatrix(Viewport viewport)
         {
+            //Set View
+            this.viewport = viewport;
+
             //Create Basic Camera
             matrix = Matrix.CreateTranslation(new Vector3(-position.X, -position.Y, 0))
                 * Matrix.CreateRotationX(rotation.X) * Matrix.CreateRotationY(rotation.Y) * Matrix.CreateRotationZ(rotation.Z)
